@@ -1,0 +1,91 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# CI/CD safety
+# Ignore all files ending with _image.tar.gz
+*_image.tar.gz
+*_image.tar
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnp.cjs
+.pnp.loader.mjs
+
+# yarn
+.yarn/*
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+yarn.lock
+
+# npm
+package-lock.json
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+
+# misc
+.env.local
+.custom.env
+
+# log files
+npm-debug.log*
+
+# parcel-bundler
+/.cache
+.parcel-cache
+
+# next.js
+.next
+out
+
+# nuxt.js
+.nuxt
+dist
+
+# vue.js
+.vuepress/dist
+
+# svelte
+/public/build
+
+# storybook
+.out
+.storybook-out
+
+# IDEs and editors
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.nfs*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# temporary files
+*.swp
+*.swo
+*.tmp
+
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite
